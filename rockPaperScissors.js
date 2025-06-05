@@ -22,7 +22,7 @@ console.log(randomString);
 
 
 if (randomString == "paper")
-        document.getElementById(text).innerHTML("That was a draw. You both selected " + randomString);
+        alert("That was a draw. You both selected " + randomString);
     else if (randomString == "scissors")
         alert("You loose! The computer chose " + randomString);
     else
